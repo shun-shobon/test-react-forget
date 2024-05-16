@@ -1,0 +1,34 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"allowUnusedLabels": false,
+		"allowUnreachableCode": false,
+		"exactOptionalPropertyTypes": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"noUncheckedIndexedAccess": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+
+		"isolatedModules": true,
+		"esModuleInterop": true,
+		"verbatimModuleSyntax": true,
+		"lib": ["esnext", "dom", "dom.iterable"],
+		"types": ["vite/client"],
+		"module": "esnext",
+		"moduleResolution": "bundler",
+		"jsx": "react-jsx",
+
+		"checkJs": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+
+		"baseUrl": ".",
+		"paths": {
+			"~/*": ["./src/*"],
+		},
+	},
+	"exclude": ["**/node_modules", "**/dist"],
+}

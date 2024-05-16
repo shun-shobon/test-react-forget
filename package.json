@@ -1,0 +1,38 @@
+{
+	"name": "@shun-shobon/web-app-template",
+	"version": "0.1.0",
+	"type": "module",
+	"description": "This is a template for a web app. It uses Vite, React, TypeScript and Chakra UI.",
+	"author": "NISHIZAWA Shuntaro <me@s2n.tech> (https://s2n.tech/)",
+	"license": "MIT",
+	"private": true,
+	"packageManager": "pnpm@9.1.1",
+	"scripts": {
+		"build": "vite build",
+		"dev": "vite",
+		"format": "prettier --write .",
+		"format:check": "prettier --check .",
+		"lint": "eslint .",
+		"lint:fix": "eslint --fix ."
+	},
+	"dependencies": {
+		"react": "19.0.0-beta-26f2496093-20240514",
+		"react-dom": "19.0.0-beta-26f2496093-20240514"
+	},
+	"devDependencies": {
+		"@shun-shobon/eslint-config": "^0.10.1",
+		"@shun-shobon/prettier-config": "^0.4.0",
+		"@types/node": "^18.19.33",
+		"@types/react": "npm:types-react@beta",
+		"@types/react-dom": "npm:types-react-dom@beta",
+		"@vitejs/plugin-react": "^4.2.1",
+		"babel-plugin-react-compiler": "0.0.0-experimental-c23de8d-20240515",
+		"eslint": "^8.57.0",
+		"eslint-plugin-react-compiler": "0.0.0-experimental-53bb89e-20240515",
+		"prettier": "^3.2.5",
+		"typescript": "5.4.5",
+		"vite": "^5.2.11",
+		"vite-plugin-html": "^3.2.2",
+		"vite-tsconfig-paths": "^4.3.2"
+	}
+}
